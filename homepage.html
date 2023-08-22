@@ -55,11 +55,6 @@
 </section>
 
 <section data-bs-version="5.1" class="header14 cid-sFzxmVl7J6" id="header14-1f">
-
-    
-
-    
-
     <div class="container">
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-md-5 image-wrapper">
@@ -104,18 +99,13 @@
 </section>
 
 <section data-bs-version="5.1" class="header18 cid-sXm4lAKgqg" id="header18-s">
-
-    
-
-    
-
     <div class="align-center container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-12">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Research</strong></h1>
                 
                 <p class="mbr-text mbr-fonts-style mbr-white display-7">
-                    Our primary research interest is Brain-Machine Interfaces (BCIs) with applications to understand and treat neurological and neuropsychiatric Disorders. 
+                    My primary research interest is Brain-Machine Interfaces (BCIs) with wide applications to decode and treat neurological and neuropsychiatric Disorders. 
                 </p>
                 
             </div>
@@ -123,9 +113,7 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-sXs5EtGsGO" id="content4-19">
-    
-    
+<section data-bs-version="5.1" class="content4 cid-sXs5EtGsGO" id="content4-19">    
     <div class="container">
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-10">
@@ -137,9 +125,7 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="video4 cid-sXpUd5284e" id="video4-w">
-    
-    
+<section data-bs-version="5.1" class="video4 cid-sXpUd5284e" id="video4-w">    
     <div class="container">
         <div class="title-wrapper mb-5">
             
@@ -154,32 +140,38 @@
                 <div class="text-wrapper">
                     <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7"><strong>Designing and Validating of a Robust and Adaptive Neuromodulation Algorithm for Closed-Loop Control of Brain States</strong></h5>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        This system employs a self-organizing
-object detector as a front end to
-deconstruct the environment. First, the
-environment is decomposed into objects;
-then, our IMRL (internal memory augmented RL) network is adopted to
-learn the objects’ affordance (i.e., a
-sequence of actions to manipulate these
-objects). The learned objects, along with
-their properties, are stored in the external
-memory and utilized when those same
-objects are detected in an unseen environment. This autonomous vision system is one step closer
-to lifelong learning because it learns continuously during execution and becomes increasingly
-adept at performing tasks without forgetting its previous experiences.
-                      &nbsp;<br><br>Y.Ma, J.Brooks, H.Li, J. Principe, “Procedural Memory Augmented Deep Reinforcement Learning,” accepted by IEEE Trans. Artificial Intelligence. (TAI).
-                      &nbsp;<br> H.Li, Y.Ma, J.C.Principe, “Cognitive Architecture for Videogames,” IEEE IJCNN 2020.<br></p>
+Neuromodulation systems that use closed-loop brain stimulation to control brain states
+can provide new therapies for brain disorders. To date, closed-loop brain stimulation has largely
+used linear time-invariant controllers. However, nonlinear time-varying brain network dynamics
+and external disturbances can appear during real-time stimulation, collectively leading to real-time
+model uncertainty. Real-time model uncertainty can degrade the performance or even cause
+instability of time-invariant controllers. Three problems need to be resolved to enable accurate and
+stable control under model uncertainty. First, an adaptive controller is needed to track the model
+uncertainty. Second, the adaptive controller additionally needs to be robust to noise and
+disturbances. Third, theoretical analyses of stability and robustness are needed as prerequisites for
+stable operation of the controller in practical applications. We develop a robust adaptive
+neuromodulation algorithm that solves the above three problems. First, we develop a state-space
+brain network model that explicitly includes nonlinear terms of real-time model uncertainty and
+design an adaptive controller to track and cancel the model uncertainty. Second, to improve the
+robustness of the adaptive controller, we design two linear filters to increase steady-state control
+accuracy and reduce sensitivity to high-frequency noise and disturbances. Third, we conduct
+theoretical analyses to prove the stability of the neuromodulation algorithm and establish a
+trade-off between stability and robustness, which we further use to optimize the algorithm design.
+Finally, we validate the algorithm using comprehensive Monte Carlo simulations that span a broad
+range of model nonlinearity, uncertainty, and complexity. The robust adaptive
+neuromodulation algorithm accurately tracks various types of target brain state trajectories,
+enables stable and robust control, and significantly outperforms state-of-the-art neuromodulation
+algorithms. Our algorithm has implications for future designs of precise, stable, and
+robust closed-loop brain stimulation systems to treat brain disorders and facilitate brain functions.
+                      &nbsp;<br><br> H. Fang and Y. Yang, "Designing and Validating of a Robust and Adaptive Neuromodulation Algorithm for Closed-Loop Control of Brain States," J. Neural Eng., 19 (3), 036018, 2022.
+                     
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image1 cid-sXs3xnXH7P" id="image1-17">
-    
-
-    
-
+<section data-bs-version="5.1" class="image1 cid-sXs3xnXH7P" id="image1-17">    
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-4">
@@ -192,17 +184,40 @@ adept at performing tasks without forgetting its previous experiences.
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-7"><strong>Predictive Neuromodulation of Cingulo-Frontal Neural Dynamics in Major Depressive Disorder using a Brain-Computer Interface System: A Simulation Study</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">M
+                    <p class="mbr-text mbr-fonts-style display-7">
+Deep brain stimulation (DBS) is a promising therapy for treatment-resistant major depressive disorder (MDD). MDD involves the dysfunction of a
+brain network that can exhibit complex nonlinear neural dynamics in multiple
+frequency bands. However, current open-loop and responsive DBS methods
+cannot track the complexmultiband neural dynamics inMDD, leading to imprecise
+regulation of symptoms, variable treatment e􀀀ects among patients, and high
+battery power consumption.Here, we develop a closed-loop brain-computer interface (BCI) system
+of predictive neuromodulation for treating MDD. We first use a biophysically
+plausible ventral anterior cingulate cortex (vACC)-dorsolateral prefrontal cortex
+(dlPFC) neural mass model of MDD to simulate nonlinear and multiband neural
+dynamics in response to DBS. We then use o	ine system identification to
+build a dynamic model that predicts the DBS e􀀀ect on neural activity. We next
+use the o	ine identified model to design an online BCI system of predictive
+neuromodulation. The online BCI system consists of a dynamic brain state
+estimator and a model predictive controller. The brain state estimator estimates
+the MDD brain state from the history of neural activity and previously delivered
+DBS patterns. The predictive controller takes the estimated MDD brain state as the
+feedback signal and optimally adjusts DBS to regulate the MDD neural dynamics
+to therapeutic targets. We use the vACC-dlPFC neural mass model as a simulation
+testbed to test the BCI system and compare it with state-of-the-art open-loop
+and responsive DBS treatments of MDD. We demonstrate that our dynamic model accurately predicts nonlinear
+and multiband neural activity. Consequently, the predictive neuromodulation
+system accurately regulates the neural dynamics in MDD, resulting in significantly
+smaller control errors and lower DBS battery power consumption than open-loop
+and responsive DBS. Our results have implications for developing future precisely-tailored
+clinical closed-loop DBS treatments for MDD.
+                      &nbsp;<br><br> H. Fang and Y. Yang, "Predictive Neuromodulation of Cingulo-Frontal Neural Dynamics in Major Depressive Disorder using a Brain-Computer Interface System: A Simulation Study," Front. Comput. Neurosci., 2023.
             </div>
         </div>
     </div>
 </section>
 
 <section data-bs-version="5.1" class="image1 cid-sXq22U1vvp" id="image1-x">
-    
-
-    
-
+  
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-4">
@@ -214,18 +229,26 @@ adept at performing tasks without forgetting its previous experiences.
             </div>
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-7"><strong>Developing Robust and Adaptive Neuromodulation Algorithms for Treating Neurological and Neuropsychiatric Disorders</strong></h3>
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-7"><strong>Robust Adaptive Deep Brain Stimulation Control of Non-Stationary Cortex-Basal Ganglia-Thalamus Network Models in Parkinson’s Disease</strong></h3>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        We augmented.</p>
+Deep brain stimulation (DBS) systems provide promising therapy for Parkinson's disease (PD). Current closed-loop DBS algorithms use on-off or linear-time invariant (LTI) controllers.
+However, PD network activity is nonlinear, non-stationary, and noisy. Additionally, a single therapeutic target shows variable efficacy across different PD symptoms at different PD stages and even at different times of the day. 
+The above issues impair the performance of current DBS algorithms. Here, we propose a robust adaptive DBS algorithm for treating PD. 
+                      We first develop a nonlinear state-space PD network model to describe the nonlinear and non-stationary PD network activity and then construct an adaptive estimator to regulate them in real time. 
+                      We next add a robust controller to improve the robustness of the adaptive estimator by designing a low-pass filter to reduce the sensitivity of high-frequency noise and disturbances. 
+                      We test the proposed robust adaptive algorithm using nonlinear and non-stationary cortex-basal ganglia-thalamus network models in PD. 
+                      Our algorithm achieves precise and robust control of non-stationary PD network models across different therapeutic targets and uniformly outperforms current DBS algorithms. 
+                      Our results establish a foundation for validating the robust adaptive DBS algorithm in future in vivo animal and human experiments. 
+                      Our algorithm has implications for future designs of closed-loop DBS systems to treat neurological and neuropsychiatric disorders. 
+
+                      &nbsp;<br><br> H. Fang, et al., "Robust Adaptive Deep Brain Stimulation Control of Non-Stationary Cortex-Basal Ganglia-Thalamus Network Models in Parkinson’s Disease," Biomed. Signal Process. Control., 2023 (Under review).
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-sXrR5bOakb" id="content4-16">
-    
-    
+<section data-bs-version="5.1" class="content4 cid-sXrR5bOakb" id="content4-16">  
     <div class="container">
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-10">
@@ -274,10 +297,6 @@ classification</strong><br></h3>
 </section>
 
 <section data-bs-version="5.1" class="image1 cid-sXqcsowkrx" id="image1-10">
-    
-
-    
-
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-4">
@@ -311,9 +330,7 @@ Classification with Application to Cluttered Coral Images,” IEEE GlobalSIP 201
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-sXrR4G0A96" id="content4-15">
-    
-    
+<section data-bs-version="5.1" class="content4 cid-sXrR4G0A96" id="content4-15">    
     <div class="container">
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-10">
@@ -364,9 +381,7 @@ Siri application.<br><br>P.Dighe, S.Adya, N.Li, S.Vishnubhotla, D.Naik, A.Sagar,
         <div class="row justify-content-center">
             <div class="col-12 col-lg-11">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>XXX our future Laboratory</strong></h1>
-                
-                
-                
+                                            
             </div>
         </div>
     </div>
@@ -379,7 +394,7 @@ Siri application.<br><br>P.Dighe, S.Adya, N.Li, S.Vishnubhotla, D.Naik, A.Sagar,
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-10">
                 
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">We are establishing a research group (MIDL) at ECE, UCF.<br><br>UCF locates in Orlando, in the center of Sunshine state. UCF has strong programs in ECE, ranking 58 in U.S. News and 43 in area of Artificial Intelligence and Machine Learning in&nbsp;<a href="http://csrankings.org/#/fromyear/2011/toyear/2021/index?ai&vision&mlmining&nlp&ir&us" class="text-primary">CSranking.org</a>.&nbsp;&nbsp;<br><br>There are several openings in our group. In you are interested in working with us, please reach out.<br><br><br>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">We are establishing a research project at ECE, UCF.<br><br>UCF locates in Orlando, in the center of Sunshine state. UCF has strong programs in ECE, ranking 58 in U.S. News and 43 in area of Artificial Intelligence and Machine Learning in&nbsp;<a href="http://csrankings.org/#/fromyear/2011/toyear/2021/index?ai&vision&mlmining&nlp&ir&us" class="text-primary">CSranking.org</a>.&nbsp;&nbsp;<br><br>There are several openings in our group. In you are interested in my project, please reach out.<br><br><br>
                 </h4>
                 
             </div>
@@ -388,17 +403,14 @@ Siri application.<br><br>P.Dighe, S.Adya, N.Li, S.Vishnubhotla, D.Naik, A.Sagar,
 </section>
 
 <section data-bs-version="5.1" class="content14 cid-sXsi5qJZ5z" id="content14-1d">
-    
-    
-    
+     
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                     <h3 class="mbr-section-title mbr-fonts-style mb-4 display-5">
                         <strong>Opennings</strong></h3>
                 <ul class="list mbr-fonts-style display-7">
-                    <li><strong>Prospective students:</strong><br>I am looking for strong and highly motivated Ph.D. students who are interesting in machine learning and deep learning. If you are interested in working with me, please submit your application to ECE, UCF and send me your CV and sample publications if any.</li>
-                    <li><strong>UCF students:&nbsp;</strong><br>For students at University of Central Florida, multiple paid part-time and volunteer research assistant positions are available. <em><strong>We will start pay you hourly after you have been working as volunteers&nbsp;for at least one semester and get some initial research results!</strong></em><strong>&nbsp;</strong> If you are interested, please send me your CV.&nbsp;</li>
+                    <li><strong>Prospective students:</strong><br>I am looking for strong and highly motivated Ph.D. students who are interested in machine learning and deep learning. If you are interested in working with me, please submit your application to ECE, UCF and send me your CV and sample publications if any.</li>                    
                 </ul>
             </div>
         </div>
@@ -410,10 +422,8 @@ Siri application.<br><br>P.Dighe, S.Adya, N.Li, S.Vishnubhotla, D.Naik, A.Sagar,
     <div class="align-center container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Teaching and Mentoring</strong></h1>
-                
-                
-                
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Teaching Experiences</strong></h1>
+                                              
             </div>
         </div>
     </div>
@@ -425,10 +435,15 @@ Siri application.<br><br>P.Dighe, S.Adya, N.Li, S.Vishnubhotla, D.Naik, A.Sagar,
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                     <h3 class="mbr-section-title mbr-fonts-style mb-4 display-5"><strong>Instructor</strong></h3>
-                <ul class="list mbr-fonts-style display-7">
-                    <li><strong>EEL 6812 Introduction to Neural Network and Deep Learning.&nbsp;</strong>Spring 2022</li>
-                    <li><strong>EEL 5825 Pattern Recognition and Machine Learning.&nbsp;</strong>Fall 2021</li>
-                    <li><strong>EEL 3552c Signal Analysis and Analog Communication.&nbsp;</strong>Fall 2021, Spring 2022.</li>
+                <ul class="list mbr-fonts-style display-7">  
+                    <li><strong>EEE 4309: Electronics II.&nbsp;</strong>2023, UCF</li>
+                    <li><strong>EEE 3342: Digital Systems.&nbsp;</strong>2023, UCF</li>
+                    <li><strong>EEL 3801: Computer Organization.&nbsp;</strong>2023, UCF.</li>
+                    <li><strong>EEL 3004: Electrical Networks.&nbsp;</strong>2023, UCF</li>
+                    <li><strong>EGN 3373: Principles of Electrical Engineering.&nbsp;</strong>2021, UCF</li>
+                    <li><strong>EEE 3307: Electronics I.&nbsp;</strong>2021, UCF</li>
+                    <li><strong>CSE 502: Data Structures and Algorithms.&nbsp;</strong>2019, WashU</li>
+                    <li><strong>ESE 520: Probability and Stochastic Processes.&nbsp;</strong>2019, WashU.</li>
                 </ul>
             </div>
         </div>
@@ -441,9 +456,7 @@ Siri application.<br><br>P.Dighe, S.Adya, N.Li, S.Vishnubhotla, D.Naik, A.Sagar,
         <div class="row justify-content-center">
             <div class="col-12 col-lg-9">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Contact</strong></h1>
-                
-                
-                
+                                            
             </div>
         </div>
     </div>
