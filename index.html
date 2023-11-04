@@ -278,7 +278,7 @@ robust closed-loop brain stimulation systems to treat brain disorders and facili
                       We demonstrate that RDA consistently achieves better recognition performance than state-of-the-art methods on three representative Emotion-EEG datasets (SEED, DEAP, and MAHNOB-HCI). 
                       Our results hold promise to effectively use brain network connectivity for emotion recognition in affective BCIs.
 
-                      &nbsp;<br><br> H. Fang, et al., "Emotion Recognition from EEG Network Connectivity Using Low-Dimensional Discriminant Analysis on Riemannian Manifolds," 2023, IEEE Trans. Affect. Comput., 2023 (Under review).
+                      &nbsp;<br><br> H. Fang, et al., "Emotion Recognition from EEG Network Connectivity Using Low-Dimensional Discriminant Analysis on Riemannian Manifolds," 2023, IEEE Trans. Affect. Comput., 2023 (In revision).
                       &nbsp;<br><br> H. Fang, et al., "Developing Affective Brain-Computer Interfaces on Low-Dimensional Riemannian Manifolds". Annual Meeting, Society for Neuroscience (SfN), 2023 (To appear, Washington. DC, Nov.).</p>
                 </div>
             </div>
@@ -302,7 +302,19 @@ robust closed-loop brain stimulation systems to treat brain disorders and facili
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-7"><strong>Meta Mood Decoder for Fast Adaption of Sparse Emotion Data</strong></h3>
                     <p class="mbr-text mbr-fonts-style display-7">
-                      &nbsp;<br><br> H. Fang, et al., "Design a Meta Mood Decoder for Fast Adaption of Sparse Emotion Data". IEEE Trans. Neural Syst. Rehabilitation Eng., 2023 (In submission). </p>
+
+                      Developing an efficient and generalizable emotion recognition algorithm that can quickly adapt to an unknown subject is emerging in the field of affective computing. 
+                      However, the unknown subject usually has heterogeneous underlying neuron characteristics and variable emotional activities, causing the undesirable accuracy of current recognition algorithms. 
+                      Here, we propose a plug-and-play model-agnostic meta-learning framework (Pnp-MAML) to efficiently learn the generalizable emotion decoder at the population level, which can quickly adapt to the unknown subject.
+                      Instead of building the end-to-end emotion decoder, our algorithm involves two steps: pretraining and fine-tuning. 
+                      First, we utilize the MAML framework to pre-train a meta-emotion decoder using all historical subject's emotional data. 
+                      The design of the meta-emotion decoder is model-free and compatible with mainstream emotion recognition architectures. 
+                      Then, we fine-tune the pre-trained meta-emotion decoder on the unknown subject using one-shot adaptation to realize Pnp emotion recognition. 
+                      Finally, We evaluate our proposed Pnp-MAML framework on public Emotion-EEG datasets (SEED, DEAP, DREAMER). 
+                      Our comprehensive experimental results show that our PnP-MAML framework archives state-of-the-art inter-subject emotion recognition accuracy and outperforms classical transfer learning algorithms across different emotion recognition architectures.
+                      Our results hold promise to incorporate the proposed Pnp-MAML emotion recognition framework to effectively improve the inter-subject generalizability in designing future affective brain-computer interfaces (BCIs).
+                      
+                      &nbsp;<br><br> H. Fang, et al., "Pnp-MAML: Plug-and-Play Model-Agnostic Meta-Learning Framework for EEG-Based Emotion Recognition". IEEE Trans. Neural Syst. Rehabilitation Eng., 2023 (In submission). </p>
                 </div>
             </div>
         </div>
