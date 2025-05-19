@@ -54,13 +54,13 @@ section::before {
 
 /* Hero section */
 .header14 {
-  background-image: var(--rainbow-gradient);
-  color: var(--light-text);
+  background-color: white;
+  color: var(--dark-text);
 }
 
 .header14 .text-wrapper {
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -304,7 +304,8 @@ blockquote {
 }
 
 .contact-btn {
-  background: var(--rainbow-gradient);
+  /* background: var(--rainbow-gradient); */
+  background-color: white;
   border: none;
   color: white;
   padding: 12px 30px;
